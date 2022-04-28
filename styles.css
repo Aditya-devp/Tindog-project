@@ -1,0 +1,148 @@
+body {
+  font-family: "Montserrat, sans-serif";
+  text-align: center;
+}
+/* headings section */
+h1,
+h2,
+h3 {
+  font-family: "Montserrat, sans-serif";
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#title {
+  text-align: left;
+}
+
+.big-heading {
+  font-size: 4rem;
+}
+.card-heading {
+  font-size: 900;
+}
+.testimonial-text {
+  font-size: 3rem;
+
+  color: white;
+}
+p {
+  color: gray;
+}
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+/* section */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section {
+  background-color: white;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 4px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat, sans-serif";
+  font-weight: 100;
+}
+.button {
+  margin: 5% 3% 5% 0;
+}
+.titleimg {
+  width: 60%;
+  transform: rotate(25deg);
+  margin: auto auto -12rem 50px;
+
+  position: relative;
+  left: 15%;
+}
+/* feature section */
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-box {
+  padding: 5%;
+}
+.icons {
+  color: #ef8172;
+  padding: 10%;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+.feature-heading {
+  font-size: 2rem;
+}
+/* testimonial section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+.logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+/* pricing sec */
+#pricing {
+  padding: 80px;
+}
+.price-col {
+  padding: 3% 2%;
+}
+.pricing-text {
+  font-size: 3rem;
+}
+@media (max-width: 1028px) {
+  .titleimg {
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* cta section */
+#cta {
+  padding: 7% 15%;
+}
+#font {
+  font-size: 3rem;
+}
+.cta-heading {
+  font-size: 3.5rem;
+}
+/* footer section */
+#footer {
+  padding: 7% 15%;
+}
+.f-icons {
+  margin: 20px 10px;
+}
